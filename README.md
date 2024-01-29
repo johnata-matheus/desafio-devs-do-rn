@@ -6,14 +6,16 @@ Este projeto se trata de uma aplicação de gerência dos associados e suas anui
 
 Para rodar esse projeto, você precisa ter o Apache, PHP e o MYSQL instalados em sua máquina;
 
-# configuração 
-
+# Configuração 
 
 Foi utilizado a porta 3307 para o banco de dados MYSQL, com o uso do docker. Dessa forma, se você estiver utilizando a porta padrão, ou qualquer outra porta, modifique-a no arquivo env.ini, ou se preferir e tiver docker em sua maquina, utilize o comando docker-compose up -d, para subir o MYSQL de forma containarizada.
 
 ```
 host = "127.0.0.1:3307"
 ```
+
+# Database
+Será necessario copiar todo o schema do arquivo meu_database.sql, adicionar ao MYSQL e rodar o mesmo, para que seja feita a criação do database, tabelas etc.
 
 # Projeto
 
