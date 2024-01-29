@@ -1,0 +1,16 @@
+table{
+  text-align: left;
+  width: 100%;
+  border-collapse: colapse;
+}
+
+th, td {
+  border: 1px solid var(--gray); /* Cor e espessura da borda */
+  padding: 8px; /* Espaçamento interno das células */
+  text-align: left;
+}
+
+th {
+  border: 1px solid #313131;
+  background-color: #202020; /* Cor de fundo para cabeçalho */
+}

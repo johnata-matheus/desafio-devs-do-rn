@@ -1,0 +1,71 @@
+:root{
+  --black: #000000;
+  --base: #09090b;
+  --gray: #202020;
+  --gray-w: #9b9595;
+  --white: #ffffff;
+}
+
+body{
+  margin: 0px;
+  background-color: var(--base);
+  color: var(--white);
+  font-family: 'poppins';
+}
+
+h1,h2,h3,p,ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.container{
+  display: grid;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/** utilitarios **/
+
+.header-bg{
+  border-bottom: 1px solid var(--gray);
+}
+
+.header{
+  padding: 24px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > a{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header-menu{
+  display: flex;
+  gap: 20px;
+}
+
+.header-menu a{
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+
+.title{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.title p{
+  color: var(--gray-w);
+}

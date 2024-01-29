@@ -1,0 +1,29 @@
+label{
+  display: block;
+  margin-bottom: 4px;
+}
+
+input{
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid var(--gray);
+  background-color: var(--base);
+  color: var(--white);
+}
+
+.flex div{
+  margin-right: 30px;
+}
+
+.btn-primary{
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-family: 'poppins';
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
