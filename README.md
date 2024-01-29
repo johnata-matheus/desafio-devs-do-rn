@@ -19,6 +19,8 @@ host = "127.0.0.1:3307"
 
 A URL principal do projeto é: http://localhost/desafio-php/src/index.php
 
+obs: Devido alguns imprevistos, não foram implementadas todas as funcionalidades da aplicação.
+
 ![image](https://github.com/johnata-matheus/desafio-devs-do-rn/assets/105123252/d72cbef4-dc30-4fec-acef-8a4fe5c86af7)
 
 ![image](https://github.com/johnata-matheus/desafio-devs-do-rn/assets/105123252/fae8fdd5-ea86-4045-b459-ca5dc0e87a34)
